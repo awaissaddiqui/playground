@@ -95,7 +95,32 @@
 
 // const fs = require('fs');      // fs is a file system and it is a library . It make a folder automatically and write a text in it .
 // fs.writeFileSync("text.txt", "Hello world") 
-const fs = require('fs');
-fs.writeFileSync("awais.text", "My name is awais saddiqui")
+// const fs = require('fs');
+// fs.writeFileSync("awais.text", "My name is awais saddiqui")
+
+// /*Random number generator */
+
+// for (let i=0; i<10; i++){
+//     const r = Math.random();
+// console.log(Math.ceil(r*100))
+
+// }
+
+// Random between numbers
+// let i=0;
+// while (i < 100){
+//     const dice = Math.floor(Math.random() * (6 - 1) + 1);
+//     if (dice ==1){
+//         console.log("****yah ****")
+//     }
+// console.log(dice)
+// }
+
+const d = new Date();
+console.log(d.getDate()) 
+
+
+
+
 
 
