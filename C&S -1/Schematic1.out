@@ -1,0 +1,102 @@
+
+**** 04/12/22 11:48:30 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\AWAIS SADDIQUI\Desktop\my cpp\Schematic1.sch
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+* Schematics Version 9.1 - Web Update 1
+* Tue Apr 12 11:44:19 2022
+
+
+
+** Analysis setup **
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "Schematic1.net"
+
+**** INCLUDING Schematic1.net ****
+* Schematics Netlist *
+
+
+
+V_V1         $N_0001 0 5V
+R_R1         $N_0001 0  12k  
+
+**** RESUMING Schematic1.cir ****
+.INC "Schematic1.als"
+
+
+
+**** INCLUDING Schematic1.als ****
+* Schematics Aliases *
+
+.ALIASES
+V_V1            V1(+=$N_0001 -=0 )
+R_R1            R1(1=$N_0001 2=0 )
+.ENDALIASES
+
+
+**** RESUMING Schematic1.cir ****
+.probe
+
+
+.END
+
+**** 04/12/22 11:48:30 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\AWAIS SADDIQUI\Desktop\my cpp\Schematic1.sch
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+($N_0001)    5.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -4.167E-04
+
+    TOTAL POWER DISSIPATION   2.08E-03  WATTS
+
+
+**** 04/12/22 11:48:30 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\AWAIS SADDIQUI\Desktop\my cpp\Schematic1.sch
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .02
+
