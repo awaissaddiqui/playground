@@ -116,8 +116,14 @@
 // console.log(dice)
 // }
 
-const d = new Date();
-console.log(d.getMinutes()) 
+// const d = new Date();
+// console.log(d.getMinutes()) 
+
+// const s = new Set([2, 3, 4, 66, 77, 88, 44 ,33, 22])
+// s.add(20)
+// console.log(s)
+
+//const num = Math.min(...d)
 
 
 
