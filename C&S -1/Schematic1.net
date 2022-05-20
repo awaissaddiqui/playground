@@ -1,6 +1,0 @@
-* Schematics Netlist *
-
-
-
-V_V1         $N_0001 0 5V
-R_R1         $N_0001 0  12k  
